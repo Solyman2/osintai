@@ -66,13 +66,12 @@ API_Mod_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-Nem
 #### 🔹 **Add or remove recon-ng modules**
 ```bash
 modules = [
+                "recon/domains-hosts/google_site_web",
+                "recon/domains-hosts/netcraft",
                 "recon/companies-contacts/pen",
-                "recon/companies-domains/pen",
-                "recon/companies-domains/viewdns_reverse_whois",
-                "recon/companies-multi/whois_miner",
-                "recon/domains-hosts/hackertarget",
+                "recon/domains-vulnerabilities/xssed"
                 ...
-                ]
+            ]
 ```
 
 
