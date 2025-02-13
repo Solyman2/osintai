@@ -1,7 +1,7 @@
 
 # 🔍 OSINTAI
 
-**OSINTAI** is an automated reconnaissance tool that gathers **publicly available intelligence** about a target (domain/IP). It utilizes **Shodan**, **WhatWeb**, and **Recon-ng** to extract valuable insights and detect through **AI Analysis** potential security concerns.
+**OSINTAI** is an automated reconnaissance tool that gathers **publicly available data** about a target (domain/IP). It utilizes various public data sources such as **Shodan**, **BinaryEdge** and others to extract valuable insights and detect through **AI Analysis** potential security concerns.
 
 ---
 
