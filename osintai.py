@@ -138,9 +138,8 @@ def run_recon_ng(target):
 
     try:
 
-        modules = [ # all the recon modules that do not requare keys or dependencies. // add modules as needed
+        modules = [ # some of the recon-ng modules that do not requare keys or dependencies. // add modules as needed
                 "recon/domains-hosts/google_site_web",
-                "recon/domains-vulnerabilities/securitytrails",
                 "recon/domains-hosts/netcraft",
                 "recon/companies-contacts/pen",
                 "recon/domains-vulnerabilities/xssed"
