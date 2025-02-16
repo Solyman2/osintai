@@ -186,7 +186,8 @@ def run_recon_ng(target):
         # Process the output
         output = result.stdout.strip()
         error = result.stderr.strip()
-        # print(error) # debugging
+        # print(output) # for showing the entire terminal output of the recon-ng tool in case if issues
+	# print(error)
         
         os.remove("sc.txt")
 
